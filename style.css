@@ -87,6 +87,7 @@ footer ul {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 footer {
@@ -97,9 +98,6 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 147.682%;
-
-  gap: 4rem;
-
   position: absolute;
   bottom: 0;
 
@@ -113,6 +111,10 @@ footer {
 }
 
 @media(width > 800px){
+  #app{
+    padding: 0;
+    width: 100%;
+  }
   main img{
     width: 30rem;
     height: auto;
@@ -125,6 +127,8 @@ footer {
   p{
     font-size: 1.5rem;
     max-width: 54rem;
+  text-align: center;
+
   }
 
   footer{
@@ -133,4 +137,6 @@ footer {
     flex-direction: column;
     width: 100%;
   }
+
+  
 }
